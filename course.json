@@ -641,8 +641,8 @@
           "type": "instruction",
           "path": "instruction/module-7-problem-set/module-7-problem-set.md",
           "id": "fb268151898b4f8db9716d6aabf66178",
-          "state": "stub",
-          "description": "Practice problems for Module 7."
+          "state": "stable",
+          "description": "Practice problems for Module 7. Three-Phase Power Systems"
         },
         {
           "title": "Module 7 Quiz",
