@@ -492,7 +492,7 @@
           "type": "instruction",
           "path": "instruction/sinusoidal-waveforms/sinusoidal-waveforms.md",
           "id": "0b767bd4a9a845068fb159633e41fd0f",
-          "state": "stub",
+          "state": "stable",
           "description": "Understanding sinusoidal waveforms and their characteristics."
         },
         {
