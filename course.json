@@ -564,7 +564,7 @@
           "type": "instruction",
           "path": "instruction/rlc-series-circuits/rlc-series-circuits.md",
           "id": "fb129139adcb4065ac406584d41693fd",
-          "state": "stub",
+          "state": "stable",
           "description": "Analyzing RLC series circuits."
         },
         {
