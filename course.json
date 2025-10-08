@@ -556,7 +556,7 @@
           "type": "instruction",
           "path": "instruction/reactance-of-capacitors-and-inductors/reactance-of-capacitors-and-inductors.md",
           "id": "ac5af6c0f6964dada13bec9fa2bc4a83",
-          "state": "stub",
+          "state": "stable",
           "description": "Understanding the reactance of capacitors and inductors in AC circuits."
         },
         {
