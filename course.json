@@ -1,145 +1,782 @@
 {
   "title": "Introduction to electricity",
-  "description": "University level course on how electricity works. Covers the fundamental concepts of voltage, current, resistance, power, energy, and their relationships, with a focus on practical applications and circuit analysis.",
+  "links": {},
   "modules": [
     {
       "title": "Fundamentals of Electric Charge and Current",
-      "description": "This module introduces the basic concepts of electric charge, current, and voltage, laying the foundation for understanding electrical circuits.",
       "topics": [
-        { "title": "Overview", "description": "Course introduction and objectives.", "path": "README.md", "type": "instruction", "state": "stable" },
-        { "title": "Electric Charge and Coulomb's Law", "description": "Understanding the nature of electric charge and the force between charges.", "path": "instruction/electric-charge-and-coulombs-law/electric-charge-and-coulombs-law.md", "type": "instruction", "state": "stub" },
-        { "title": "Electric Field", "description": "Introduction to the electric field and its properties.", "path": "instruction/electric-field/electric-field.md", "type": "instruction", "state": "stub" },
-        { "title": "Electric Potential Energy and Potential Difference", "description": "Defining electric potential energy and potential difference.", "path": "instruction/electric-potential-energy-and-potential-difference/electric-potential-energy-and-potential-difference.md", "type": "instruction", "state": "stub" },
-        { "title": "Current and Drift Velocity", "description": "Understanding the flow of electric charge and drift velocity of charge carriers.", "path": "instruction/current-and-drift-velocity/current-and-drift-velocity.md", "type": "instruction", "state": "stub" },
-        { "title": "Voltage and Electromotive Force (EMF)", "description": "Defining voltage and its relation to energy and EMF.", "path": "instruction/voltage-and-electromotive-force-emf/voltage-and-electromotive-force-emf.md", "type": "instruction", "state": "stub" },
-        { "title": "Conventional Current vs. Electron Flow", "description": "Understanding the difference between conventional current and electron flow.", "path": "instruction/conventional-current-vs-electron-flow/conventional-current-vs-electron-flow.md", "type": "instruction", "state": "stub" },
-        { "title": "Introduction to Circuit Symbols", "description": "Familiarizing yourself with common circuit symbols.", "path": "instruction/introduction-to-circuit-symbols/introduction-to-circuit-symbols.md", "type": "instruction", "state": "stub" },
-        { "title": "Electrical Safety", "description": "An overview of electrical safety practices.", "path": "instruction/electrical-safety/electrical-safety.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 1 Problem Set", "description": "Practice problems for Module 1.", "path": "instruction/module-1-problem-set/module-1-problem-set.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 1 Quiz", "description": "A quiz on the contents of Module 1.", "path": "instruction/module-1-quiz/module-1-quiz.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Overview",
+          "type": "instruction",
+          "path": "README.md",
+          "id": "054a1946ecea44a1b2107309193109ae",
+          "state": "stable",
+          "description": "Course introduction and objectives.",
+          "commit": "8295ee281d593ff72cd723e4e2299bc7fa5ba85a"
+        },
+        {
+          "title": "Electric Charge and Coulomb's Law",
+          "type": "instruction",
+          "path": "instruction/electric-charge-and-coulombs-law/electric-charge-and-coulombs-law.md",
+          "id": "dae2d9e462984d6c9b6e7106f84923b4",
+          "state": "stub",
+          "description": "Understanding the nature of electric charge and the force between charges."
+        },
+        {
+          "title": "Electric Field",
+          "type": "instruction",
+          "path": "instruction/electric-field/electric-field.md",
+          "id": "1de0708b3d8a4062962b40ad0c571b2b",
+          "state": "stub",
+          "description": "Introduction to the electric field and its properties."
+        },
+        {
+          "title": "Electric Potential Energy and Potential Difference",
+          "type": "instruction",
+          "path": "instruction/electric-potential-energy-and-potential-difference/electric-potential-energy-and-potential-difference.md",
+          "id": "b0ca12f5513c471fa30f510fa4b25494",
+          "state": "stub",
+          "description": "Defining electric potential energy and potential difference."
+        },
+        {
+          "title": "Current and Drift Velocity",
+          "type": "instruction",
+          "path": "instruction/current-and-drift-velocity/current-and-drift-velocity.md",
+          "id": "26bcbf7cdf3246c4a7b4ba348f0c24a9",
+          "state": "stub",
+          "description": "Understanding the flow of electric charge and drift velocity of charge carriers."
+        },
+        {
+          "title": "Voltage and Electromotive Force (EMF)",
+          "type": "instruction",
+          "path": "instruction/voltage-and-electromotive-force-emf/voltage-and-electromotive-force-emf.md",
+          "id": "eeea05c0885d4107a233f2c1afbc21f7",
+          "state": "stub",
+          "description": "Defining voltage and its relation to energy and EMF."
+        },
+        {
+          "title": "Conventional Current vs. Electron Flow",
+          "type": "instruction",
+          "path": "instruction/conventional-current-vs-electron-flow/conventional-current-vs-electron-flow.md",
+          "id": "392f1f4fde1842d3bcbd6fa5a11c1875",
+          "state": "stub",
+          "description": "Understanding the difference between conventional current and electron flow."
+        },
+        {
+          "title": "Introduction to Circuit Symbols",
+          "type": "instruction",
+          "path": "instruction/introduction-to-circuit-symbols/introduction-to-circuit-symbols.md",
+          "id": "09912ddd2daa41c8b207af24dc6203ed",
+          "state": "stub",
+          "description": "Familiarizing yourself with common circuit symbols."
+        },
+        {
+          "title": "Electrical Safety",
+          "type": "instruction",
+          "path": "instruction/electrical-safety/electrical-safety.md",
+          "id": "41ff02b67e5540f9839fbd3003c03e3b",
+          "state": "stub",
+          "description": "An overview of electrical safety practices."
+        },
+        {
+          "title": "Module 1 Problem Set",
+          "type": "instruction",
+          "path": "instruction/module-1-problem-set/module-1-problem-set.md",
+          "id": "60847452d3ff4e10b5b6929352932d75",
+          "state": "stub",
+          "description": "Practice problems for Module 1."
+        },
+        {
+          "title": "Module 1 Quiz",
+          "type": "instruction",
+          "path": "instruction/module-1-quiz/module-1-quiz.md",
+          "id": "5fb6a0f3fce04e6485e08e658947566c",
+          "state": "stub",
+          "description": "A quiz on the contents of Module 1."
+        }
       ]
     },
     {
       "title": "Resistance and Ohm's Law",
-      "description": "This module explores the concept of resistance and its relationship to voltage and current through Ohm's Law.",
       "topics": [
-        { "title": "Resistance and Resistivity", "description": "Defining resistance and resistivity.", "path": "instruction/resistance-and-resistivity/resistance-and-resistivity.md", "type": "instruction", "state": "stub" },
-        { "title": "Ohm's Law", "description": "Understanding the relationship between voltage, current, and resistance.", "path": "instruction/ohms-law/ohms-law.md", "type": "instruction", "state": "stub" },
-        { "title": "Factors Affecting Resistance", "description": "Exploring factors like temperature, material, and geometry that affect resistance.", "path": "instruction/factors-affecting-resistance/factors-affecting-resistance.md", "type": "instruction", "state": "stub" },
-        { "title": "Resistors in Series", "description": "Calculating the total resistance of resistors connected in series.", "path": "instruction/resistors-in-series/resistors-in-series.md", "type": "instruction", "state": "stub" },
-        { "title": "Resistors in Parallel", "description": "Calculating the total resistance of resistors connected in parallel.", "path": "instruction/resistors-in-parallel/resistors-in-parallel.md", "type": "instruction", "state": "stub" },
-        { "title": "Voltage Dividers", "description": "Understanding and designing voltage divider circuits.", "path": "instruction/voltage-dividers/voltage-dividers.md", "type": "instruction", "state": "stub" },
-        { "title": "Current Dividers", "description": "Understanding and designing current divider circuits.", "path": "instruction/current-dividers/current-dividers.md", "type": "instruction", "state": "stub" },
-        { "title": "Power Dissipation in Resistors", "description": "Calculating the power dissipated by resistors.", "path": "instruction/power-dissipation-in-resistors/power-dissipation-in-resistors.md", "type": "instruction", "state": "stub" },
-        { "title": "Linearity and Superposition", "description": "Applying the concepts of linearity and superposition to circuit analysis.", "path": "instruction/linearity-and-superposition/linearity-and-superposition.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 2 Problem Set", "description": "Practice problems for Module 2.", "path": "instruction/module-2-problem-set/module-2-problem-set.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 2 Quiz", "description": "A quiz on the contents of Module 2.", "path": "instruction/module-2-quiz/module-2-quiz.md", "type": "instruction", "state": "stub" },
-        { "title": "Types of Resistors", "description": "Explore different types of resistors and their applications.", "path": "instruction/types-of-resistors/types-of-resistors.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Resistance and Resistivity",
+          "type": "instruction",
+          "path": "instruction/resistance-and-resistivity/resistance-and-resistivity.md",
+          "id": "7d21ed5037024126b635f9d445ae7e71",
+          "state": "stub",
+          "description": "Defining resistance and resistivity."
+        },
+        {
+          "title": "Ohm's Law",
+          "type": "instruction",
+          "path": "instruction/ohms-law/ohms-law.md",
+          "id": "3ce652e1520d4ac7a19bb64261c2a821",
+          "state": "stub",
+          "description": "Understanding the relationship between voltage, current, and resistance."
+        },
+        {
+          "title": "Factors Affecting Resistance",
+          "type": "instruction",
+          "path": "instruction/factors-affecting-resistance/factors-affecting-resistance.md",
+          "id": "11284a44a0c7490baa82970d5f077388",
+          "state": "stub",
+          "description": "Exploring factors like temperature, material, and geometry that affect resistance."
+        },
+        {
+          "title": "Resistors in Series",
+          "type": "instruction",
+          "path": "instruction/resistors-in-series/resistors-in-series.md",
+          "id": "d681eba93b394822bd2a3119ec5d2bb0",
+          "state": "stub",
+          "description": "Calculating the total resistance of resistors connected in series."
+        },
+        {
+          "title": "Resistors in Parallel",
+          "type": "instruction",
+          "path": "instruction/resistors-in-parallel/resistors-in-parallel.md",
+          "id": "7a5ad677345f43eb99d8663c9e2990e6",
+          "state": "stub",
+          "description": "Calculating the total resistance of resistors connected in parallel."
+        },
+        {
+          "title": "Voltage Dividers",
+          "type": "instruction",
+          "path": "instruction/voltage-dividers/voltage-dividers.md",
+          "id": "f2b7d3ad72904d37849f73c1c57758ea",
+          "state": "stub",
+          "description": "Understanding and designing voltage divider circuits."
+        },
+        {
+          "title": "Current Dividers",
+          "type": "instruction",
+          "path": "instruction/current-dividers/current-dividers.md",
+          "id": "50b08075a9244ff3b0bfb43bc8db496b",
+          "state": "stub",
+          "description": "Understanding and designing current divider circuits."
+        },
+        {
+          "title": "Power Dissipation in Resistors",
+          "type": "instruction",
+          "path": "instruction/power-dissipation-in-resistors/power-dissipation-in-resistors.md",
+          "id": "1a2caff29b7a4613b72584cc329b0a91",
+          "state": "stub",
+          "description": "Calculating the power dissipated by resistors."
+        },
+        {
+          "title": "Linearity and Superposition",
+          "type": "instruction",
+          "path": "instruction/linearity-and-superposition/linearity-and-superposition.md",
+          "id": "3bf716c3eca74736a32c406bf18abddf",
+          "state": "stub",
+          "description": "Applying the concepts of linearity and superposition to circuit analysis."
+        },
+        {
+          "title": "Module 2 Problem Set",
+          "type": "instruction",
+          "path": "instruction/module-2-problem-set/module-2-problem-set.md",
+          "id": "6747559bb49742fc91741a5683c4cd25",
+          "state": "stub",
+          "description": "Practice problems for Module 2."
+        },
+        {
+          "title": "Module 2 Quiz",
+          "type": "instruction",
+          "path": "instruction/module-2-quiz/module-2-quiz.md",
+          "id": "288252b7390f41d2b6b5180619e3108d",
+          "state": "stub",
+          "description": "A quiz on the contents of Module 2."
+        },
+        {
+          "title": "Types of Resistors",
+          "type": "instruction",
+          "path": "instruction/types-of-resistors/types-of-resistors.md",
+          "id": "707a3620a8864a30b0bf9e2912595076",
+          "state": "stub",
+          "description": "Explore different types of resistors and their applications."
+        }
       ]
     },
     {
       "title": "DC Circuits and Kirchhoff's Laws",
-      "description": "This module covers the analysis of DC circuits using Kirchhoff's Laws and other circuit analysis techniques.",
       "topics": [
-        { "title": "Kirchhoff's Current Law (KCL)", "description": "Understanding and applying Kirchhoff's Current Law.", "path": "instruction/kirchhoffs-current-law-kcl/kirchhoffs-current-law-kcl.md", "type": "instruction", "state": "stub" },
-        { "title": "Kirchhoff's Voltage Law (KVL)", "description": "Understanding and applying Kirchhoff's Voltage Law.", "path": "instruction/kirchhoffs-voltage-law-kvl/kirchhoffs-voltage-law-kvl.md", "type": "instruction", "state": "stub" },
-        { "title": "Series Circuits Analysis", "description": "Analyzing series circuits using KVL and Ohm's Law.", "path": "instruction/series-circuits-analysis/series-circuits-analysis.md", "type": "instruction", "state": "stub" },
-        { "title": "Parallel Circuits Analysis", "description": "Analyzing parallel circuits using KCL and Ohm's Law.", "path": "instruction/parallel-circuits-analysis/parallel-circuits-analysis.md", "type": "instruction", "state": "stub" },
-        { "title": "Series-Parallel Circuits", "description": "Analyzing series-parallel combination circuits.", "path": "instruction/series-parallel-circuits/series-parallel-circuits.md", "type": "instruction", "state": "stub" },
-        { "title": "Nodal Analysis", "description": "Solving circuits using nodal analysis.", "path": "instruction/nodal-analysis/nodal-analysis.md", "type": "instruction", "state": "stub" },
-        { "title": "Mesh Analysis", "description": "Solving circuits using mesh analysis.", "path": "instruction/mesh-analysis/mesh-analysis.md", "type": "instruction", "state": "stub" },
-        { "title": "Source Transformations", "description": "Simplifying circuits using source transformations.", "path": "instruction/source-transformations/source-transformations.md", "type": "instruction", "state": "stub" },
-        { "title": "Thevenin's Theorem", "description": "Applying Thevenin's Theorem to simplify circuits.", "path": "instruction/thevenins-theorem/thevenins-theorem.md", "type": "instruction", "state": "stub" },
-        { "title": "Norton's Theorem", "description": "Applying Norton's Theorem to simplify circuits.", "path": "instruction/nortons-theorem/nortons-theorem.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 3 Problem Set", "description": "Practice problems for Module 3.", "path": "instruction/module-3-problem-set/module-3-problem-set.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 3 Quiz", "description": "A quiz on the contents of Module 3.", "path": "instruction/module-3-quiz/module-3-quiz.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Kirchhoff's Current Law (KCL)",
+          "type": "instruction",
+          "path": "instruction/kirchhoffs-current-law-kcl/kirchhoffs-current-law-kcl.md",
+          "id": "f1158edffd4547ba9281517c25a48256",
+          "state": "stub",
+          "description": "Understanding and applying Kirchhoff's Current Law."
+        },
+        {
+          "title": "Kirchhoff's Voltage Law (KVL)",
+          "type": "instruction",
+          "path": "instruction/kirchhoffs-voltage-law-kvl/kirchhoffs-voltage-law-kvl.md",
+          "id": "201ba58efbf24d4d8f3dc3070dfcc181",
+          "state": "stub",
+          "description": "Understanding and applying Kirchhoff's Voltage Law."
+        },
+        {
+          "title": "Series Circuits Analysis",
+          "type": "instruction",
+          "path": "instruction/series-circuits-analysis/series-circuits-analysis.md",
+          "id": "ee874f48143842c08fe6ad59bc5f4c90",
+          "state": "stub",
+          "description": "Analyzing series circuits using KVL and Ohm's Law."
+        },
+        {
+          "title": "Parallel Circuits Analysis",
+          "type": "instruction",
+          "path": "instruction/parallel-circuits-analysis/parallel-circuits-analysis.md",
+          "id": "e81d37b5622e4a9c9267dde4e89a9e07",
+          "state": "stub",
+          "description": "Analyzing parallel circuits using KCL and Ohm's Law."
+        },
+        {
+          "title": "Series-Parallel Circuits",
+          "type": "instruction",
+          "path": "instruction/series-parallel-circuits/series-parallel-circuits.md",
+          "id": "b87650c0d3264b718ef34bb508f749cb",
+          "state": "stub",
+          "description": "Analyzing series-parallel combination circuits."
+        },
+        {
+          "title": "Nodal Analysis",
+          "type": "instruction",
+          "path": "instruction/nodal-analysis/nodal-analysis.md",
+          "id": "17b767a0db5b4c2a9360cc4a156107fd",
+          "state": "stub",
+          "description": "Solving circuits using nodal analysis."
+        },
+        {
+          "title": "Mesh Analysis",
+          "type": "instruction",
+          "path": "instruction/mesh-analysis/mesh-analysis.md",
+          "id": "7184dcc400154ee49751064cbd67bc58",
+          "state": "stub",
+          "description": "Solving circuits using mesh analysis."
+        },
+        {
+          "title": "Source Transformations",
+          "type": "instruction",
+          "path": "instruction/source-transformations/source-transformations.md",
+          "id": "685b888672c0475f888fd453b5a4d8bd",
+          "state": "stub",
+          "description": "Simplifying circuits using source transformations."
+        },
+        {
+          "title": "Thevenin's Theorem",
+          "type": "instruction",
+          "path": "instruction/thevenins-theorem/thevenins-theorem.md",
+          "id": "fd5de3628bfe4136991b4e90071ae93d",
+          "state": "stub",
+          "description": "Applying Thevenin's Theorem to simplify circuits."
+        },
+        {
+          "title": "Norton's Theorem",
+          "type": "instruction",
+          "path": "instruction/nortons-theorem/nortons-theorem.md",
+          "id": "e0c80adc61a94b5c93a62bb86c1bd41b",
+          "state": "stub",
+          "description": "Applying Norton's Theorem to simplify circuits."
+        },
+        {
+          "title": "Module 3 Problem Set",
+          "type": "instruction",
+          "path": "instruction/module-3-problem-set/module-3-problem-set.md",
+          "id": "60056e431dab4fa785fdb56037d5c877",
+          "state": "stub",
+          "description": "Practice problems for Module 3."
+        },
+        {
+          "title": "Module 3 Quiz",
+          "type": "instruction",
+          "path": "instruction/module-3-quiz/module-3-quiz.md",
+          "id": "7e047319e53c4fe5b4841563ea9d9b19",
+          "state": "stub",
+          "description": "A quiz on the contents of Module 3."
+        }
       ]
     },
     {
       "title": "Energy and Power in Electric Circuits",
-      "description": "This module focuses on energy and power calculations in DC circuits, including maximum power transfer.",
       "topics": [
-        { "title": "Electrical Work and Energy", "description": "Understanding the concepts of electrical work and energy.", "path": "instruction/electrical-work-and-energy/electrical-work-and-energy.md", "type": "instruction", "state": "stub" },
-        { "title": "Power in DC Circuits", "description": "Calculating power in DC circuits.", "path": "instruction/power-in-dc-circuits/power-in-dc-circuits.md", "type": "instruction", "state": "stub" },
-        { "title": "Energy Dissipation in Resistors", "description": "Calculating energy dissipation in resistors over time.", "path": "instruction/energy-dissipation-in-resistors/energy-dissipation-in-resistors.md", "type": "instruction", "state": "stub" },
-        { "title": "Power Supplies and Batteries", "description": "Understanding the characteristics of power supplies and batteries.", "path": "instruction/power-supplies-and-batteries/power-supplies-and-batteries.md", "type": "instruction", "state": "stub" },
-        { "title": "Maximum Power Transfer Theorem", "description": "Applying the maximum power transfer theorem.", "path": "instruction/maximum-power-transfer-theorem/maximum-power-transfer-theorem.md", "type": "instruction", "state": "stub" },
-        { "title": "Efficiency in Electrical Circuits", "description": "Calculating the efficiency of electrical circuits.", "path": "instruction/efficiency-in-electrical-circuits/efficiency-in-electrical-circuits.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 4 Problem Set", "description": "Practice problems for Module 4.", "path": "instruction/module-4-problem-set/module-4-problem-set.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 4 Quiz", "description": "A quiz on the contents of Module 4.", "path": "instruction/module-4-quiz/module-4-quiz.md", "type": "instruction", "state": "stub" },
-        { "title": "Grounding and Electrical Safety", "description": "Understanding the importance of grounding for safety.", "path": "instruction/grounding-and-electrical-safety/grounding-and-electrical-safety.md", "type": "instruction", "state": "stub" },
-        { "title": "Short Circuits and Overloads", "description": "Understanding the dangers of short circuits and overloads.", "path": "instruction/short-circuits-and-overloads/short-circuits-and-overloads.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Electrical Work and Energy",
+          "type": "instruction",
+          "path": "instruction/electrical-work-and-energy/electrical-work-and-energy.md",
+          "id": "bfc93ab4093c407891901f10067bf443",
+          "state": "stub",
+          "description": "Understanding the concepts of electrical work and energy."
+        },
+        {
+          "title": "Power in DC Circuits",
+          "type": "instruction",
+          "path": "instruction/power-in-dc-circuits/power-in-dc-circuits.md",
+          "id": "f534ff93a785457b8aff615cec212e74",
+          "state": "stub",
+          "description": "Calculating power in DC circuits."
+        },
+        {
+          "title": "Energy Dissipation in Resistors",
+          "type": "instruction",
+          "path": "instruction/energy-dissipation-in-resistors/energy-dissipation-in-resistors.md",
+          "id": "85dfaac72e854408a3caf23ed359eb9b",
+          "state": "stub",
+          "description": "Calculating energy dissipation in resistors over time."
+        },
+        {
+          "title": "Power Supplies and Batteries",
+          "type": "instruction",
+          "path": "instruction/power-supplies-and-batteries/power-supplies-and-batteries.md",
+          "id": "ffc78687a7d641208fad96676bf97cca",
+          "state": "stub",
+          "description": "Understanding the characteristics of power supplies and batteries."
+        },
+        {
+          "title": "Maximum Power Transfer Theorem",
+          "type": "instruction",
+          "path": "instruction/maximum-power-transfer-theorem/maximum-power-transfer-theorem.md",
+          "id": "4bab06ef5b0a4ea98adca3ab056523c3",
+          "state": "stub",
+          "description": "Applying the maximum power transfer theorem."
+        },
+        {
+          "title": "Efficiency in Electrical Circuits",
+          "type": "instruction",
+          "path": "instruction/efficiency-in-electrical-circuits/efficiency-in-electrical-circuits.md",
+          "id": "4d20e8a894bf4293b730cf40748dd31a",
+          "state": "stub",
+          "description": "Calculating the efficiency of electrical circuits."
+        },
+        {
+          "title": "Module 4 Problem Set",
+          "type": "instruction",
+          "path": "instruction/module-4-problem-set/module-4-problem-set.md",
+          "id": "2e2720060c25440ba4bdf35c91b9eb85",
+          "state": "stub",
+          "description": "Practice problems for Module 4."
+        },
+        {
+          "title": "Module 4 Quiz",
+          "type": "instruction",
+          "path": "instruction/module-4-quiz/module-4-quiz.md",
+          "id": "b66c3765679942d98f1301faeec79024",
+          "state": "stub",
+          "description": "A quiz on the contents of Module 4."
+        },
+        {
+          "title": "Grounding and Electrical Safety",
+          "type": "instruction",
+          "path": "instruction/grounding-and-electrical-safety/grounding-and-electrical-safety.md",
+          "id": "749be2a44e3d4343a7e26b856ba6ff59",
+          "state": "stub",
+          "description": "Understanding the importance of grounding for safety."
+        },
+        {
+          "title": "Short Circuits and Overloads",
+          "type": "instruction",
+          "path": "instruction/short-circuits-and-overloads/short-circuits-and-overloads.md",
+          "id": "3e7c1e1f5ad94ea195a993baa0936c92",
+          "state": "stub",
+          "description": "Understanding the dangers of short circuits and overloads."
+        }
       ]
     },
     {
       "title": "Capacitance and Inductance",
-      "description": "This module introduces capacitors and inductors, their properties, and their behavior in DC circuits.",
       "topics": [
-        { "title": "Capacitance and Capacitors", "description": "Defining capacitance and exploring different types of capacitors.", "path": "instruction/capacitance-and-capacitors/capacitance-and-capacitors.md", "type": "instruction", "state": "stub" },
-        { "title": "Capacitors in Series and Parallel", "description": "Calculating equivalent capacitance for series and parallel combinations.", "path": "instruction/capacitors-in-series-and-parallel/capacitors-in-series-and-parallel.md", "type": "instruction", "state": "stub" },
-        { "title": "Energy Stored in a Capacitor", "description": "Calculating the energy stored in a capacitor.", "path": "instruction/energy-stored-in-a-capacitor/energy-stored-in-a-capacitor.md", "type": "instruction", "state": "stub" },
-        { "title": "Charging and Discharging Capacitors", "description": "Analyzing the charging and discharging process of capacitors.", "path": "instruction/charging-and-discharging-capacitors/charging-and-discharging-capacitors.md", "type": "instruction", "state": "stub" },
-        { "title": "Inductance and Inductors", "description": "Defining inductance and exploring different types of inductors.", "path": "instruction/inductance-and-inductors/inductance-and-inductors.md", "type": "instruction", "state": "stub" },
-        { "title": "Inductors in Series and Parallel", "description": "Calculating equivalent inductance for series and parallel combinations.", "path": "instruction/inductors-in-series-and-parallel/inductors-in-series-and-parallel.md", "type": "instruction", "state": "stub" },
-        { "title": "Energy Stored in an Inductor", "description": "Calculating the energy stored in an inductor.", "path": "instruction/energy-stored-in-an-inductor/energy-stored-in-an-inductor.md", "type": "instruction", "state": "stub" },
-        { "title": "RL and RC Time Constants", "description": "Understanding the concept of time constants in RL and RC circuits.", "path": "instruction/rl-and-rc-time-constants/rl-and-rc-time-constants.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 5 Problem Set", "description": "Practice problems for Module 5.", "path": "instruction/module-5-problem-set/module-5-problem-set.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 5 Quiz", "description": "A quiz on the contents of Module 5.", "path": "instruction/module-5-quiz/module-5-quiz.md", "type": "instruction", "state": "stub" },
-        { "title": "Applications of Capacitors and Inductors", "description": "Explore real world applications of capacitors and inductors.", "path": "instruction/applications-of-capacitors-and-inductors/applications-of-capacitors-and-inductors.md", "type": "instruction", "state": "stub" },
-        { "title": "Parasitic Capacitance and Inductance", "description": "Understand how parasitic capacitance and inductance can affect circuits.", "path": "instruction/parasitic-capacitance-and-inductance/parasitic-capacitance-and-inductance.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Capacitance and Capacitors",
+          "type": "instruction",
+          "path": "instruction/capacitance-and-capacitors/capacitance-and-capacitors.md",
+          "id": "2c10ea70413c48ccb182b82400cf455b",
+          "state": "stub",
+          "description": "Defining capacitance and exploring different types of capacitors."
+        },
+        {
+          "title": "Capacitors in Series and Parallel",
+          "type": "instruction",
+          "path": "instruction/capacitors-in-series-and-parallel/capacitors-in-series-and-parallel.md",
+          "id": "2224e7bfafbc463bb69a01a087ec344f",
+          "state": "stub",
+          "description": "Calculating equivalent capacitance for series and parallel combinations."
+        },
+        {
+          "title": "Energy Stored in a Capacitor",
+          "type": "instruction",
+          "path": "instruction/energy-stored-in-a-capacitor/energy-stored-in-a-capacitor.md",
+          "id": "bc1131d17df54761af23eb8291617a82",
+          "state": "stub",
+          "description": "Calculating the energy stored in a capacitor."
+        },
+        {
+          "title": "Charging and Discharging Capacitors",
+          "type": "instruction",
+          "path": "instruction/charging-and-discharging-capacitors/charging-and-discharging-capacitors.md",
+          "id": "b349e5cb2eed4fd79f208b3d5ec553b9",
+          "state": "stub",
+          "description": "Analyzing the charging and discharging process of capacitors."
+        },
+        {
+          "title": "Inductance and Inductors",
+          "type": "instruction",
+          "path": "instruction/inductance-and-inductors/inductance-and-inductors.md",
+          "id": "3c816e83fa4d45aaac630369140a399e",
+          "state": "stub",
+          "description": "Defining inductance and exploring different types of inductors."
+        },
+        {
+          "title": "Inductors in Series and Parallel",
+          "type": "instruction",
+          "path": "instruction/inductors-in-series-and-parallel/inductors-in-series-and-parallel.md",
+          "id": "aa85c10e54264cca91940683c7ef3229",
+          "state": "stub",
+          "description": "Calculating equivalent inductance for series and parallel combinations."
+        },
+        {
+          "title": "Energy Stored in an Inductor",
+          "type": "instruction",
+          "path": "instruction/energy-stored-in-an-inductor/energy-stored-in-an-inductor.md",
+          "id": "c7a556421a0f4425a910b01711076278",
+          "state": "stub",
+          "description": "Calculating the energy stored in an inductor."
+        },
+        {
+          "title": "RL and RC Time Constants",
+          "type": "instruction",
+          "path": "instruction/rl-and-rc-time-constants/rl-and-rc-time-constants.md",
+          "id": "12bb2d2ef40541b29feb92f351e67f27",
+          "state": "stub",
+          "description": "Understanding the concept of time constants in RL and RC circuits."
+        },
+        {
+          "title": "Module 5 Problem Set",
+          "type": "instruction",
+          "path": "instruction/module-5-problem-set/module-5-problem-set.md",
+          "id": "10cafa978b5b469b870c62ae06f7b65a",
+          "state": "stub",
+          "description": "Practice problems for Module 5."
+        },
+        {
+          "title": "Module 5 Quiz",
+          "type": "instruction",
+          "path": "instruction/module-5-quiz/module-5-quiz.md",
+          "id": "066f72814a294360ae9602ff887ea808",
+          "state": "stub",
+          "description": "A quiz on the contents of Module 5."
+        },
+        {
+          "title": "Applications of Capacitors and Inductors",
+          "type": "instruction",
+          "path": "instruction/applications-of-capacitors-and-inductors/applications-of-capacitors-and-inductors.md",
+          "id": "1122cc6036594ad49319845c8da9476d",
+          "state": "stub",
+          "description": "Explore real world applications of capacitors and inductors."
+        },
+        {
+          "title": "Parasitic Capacitance and Inductance",
+          "type": "instruction",
+          "path": "instruction/parasitic-capacitance-and-inductance/parasitic-capacitance-and-inductance.md",
+          "id": "192080f4830341c1b50ba9b6b7722b46",
+          "state": "stub",
+          "description": "Understand how parasitic capacitance and inductance can affect circuits."
+        }
       ]
     },
     {
       "title": "AC Circuits and Phasors",
-      "description": "This module introduces alternating current (AC) circuits and the use of phasors for circuit analysis.",
       "topics": [
-        { "title": "Sinusoidal Waveforms", "description": "Understanding sinusoidal waveforms and their characteristics.", "path": "instruction/sinusoidal-waveforms/sinusoidal-waveforms.md", "type": "instruction", "state": "stub" },
-        { "title": "RMS Values and Average Values", "description": "Defining RMS and average values of AC waveforms.", "path": "instruction/rms-values-and-average-values/rms-values-and-average-values.md", "type": "instruction", "state": "stub" },
-        { "title": "Phasors and Impedance", "description": "Introducing phasors and impedance in AC circuits.", "path": "instruction/phasors-and-impedance/phasors-and-impedance.md", "type": "instruction", "state": "stub" },
-        { "title": "AC Circuit Analysis Techniques", "description": "Applying circuit analysis techniques to AC circuits.", "path": "instruction/ac-circuit-analysis-techniques/ac-circuit-analysis-techniques.md", "type": "instruction", "state": "stub" },
-        { "title": "AC Power", "description": "Understanding power in AC circuits.", "path": "instruction/ac-power/ac-power.md", "type": "instruction", "state": "stub" },
-        { "title": "Power Factor", "description": "Defining and improving power factor.", "path": "instruction/power-factor/power-factor.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 6 Problem Set", "description": "Practice problems for Module 6.", "path": "instruction/module-6-problem-set/module-6-problem-set.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 6 Quiz", "description": "A quiz on the contents of Module 6.", "path": "instruction/module-6-quiz/module-6-quiz.md", "type": "instruction", "state": "stub" },
-        { "title": "Reactance of Capacitors and Inductors", "description": "Understanding the reactance of capacitors and inductors in AC circuits.", "path": "instruction/reactance-of-capacitors-and-inductors/reactance-of-capacitors-and-inductors.md", "type": "instruction", "state": "stub" },
-        { "title": "RLC Series Circuits", "description": "Analyzing RLC series circuits.", "path": "instruction/rlc-series-circuits/rlc-series-circuits.md", "type": "instruction", "state": "stub" },
-        { "title": "RLC Parallel Circuits", "description": "Analyzing RLC parallel circuits.", "path": "instruction/rlc-parallel-circuits/rlc-parallel-circuits.md", "type": "instruction", "state": "stub" },
-        { "title": "Resonance in AC Circuits", "description": "Understanding resonance in AC circuits.", "path": "instruction/resonance-in-ac-circuits/resonance-in-ac-circuits.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Sinusoidal Waveforms",
+          "type": "instruction",
+          "path": "instruction/sinusoidal-waveforms/sinusoidal-waveforms.md",
+          "id": "0b767bd4a9a845068fb159633e41fd0f",
+          "state": "stub",
+          "description": "Understanding sinusoidal waveforms and their characteristics."
+        },
+        {
+          "title": "RMS Values and Average Values",
+          "type": "instruction",
+          "path": "instruction/rms-values-and-average-values/rms-values-and-average-values.md",
+          "id": "a386eb963ca04ab2a1e90270a00a14fc",
+          "state": "stub",
+          "description": "Defining RMS and average values of AC waveforms."
+        },
+        {
+          "title": "Phasors and Impedance",
+          "type": "instruction",
+          "path": "instruction/phasors-and-impedance/phasors-and-impedance.md",
+          "id": "08db99571696442f96b42a0252ff42bb",
+          "state": "stub",
+          "description": "Introducing phasors and impedance in AC circuits."
+        },
+        {
+          "title": "AC Circuit Analysis Techniques",
+          "type": "instruction",
+          "path": "instruction/ac-circuit-analysis-techniques/ac-circuit-analysis-techniques.md",
+          "id": "44a3632a1f39477e9b546ee6d89a50ac",
+          "state": "stub",
+          "description": "Applying circuit analysis techniques to AC circuits."
+        },
+        {
+          "title": "AC Power",
+          "type": "instruction",
+          "path": "instruction/ac-power/ac-power.md",
+          "id": "4c8850599bc748558cd2ffa460ccd713",
+          "state": "stub",
+          "description": "Understanding power in AC circuits."
+        },
+        {
+          "title": "Power Factor",
+          "type": "instruction",
+          "path": "instruction/power-factor/power-factor.md",
+          "id": "7f2b623598a743ddbabd571aa97e6b60",
+          "state": "stub",
+          "description": "Defining and improving power factor."
+        },
+        {
+          "title": "Module 6 Problem Set",
+          "type": "instruction",
+          "path": "instruction/module-6-problem-set/module-6-problem-set.md",
+          "id": "956e05ba73a645218cb3569127d8154f",
+          "state": "stub",
+          "description": "Practice problems for Module 6."
+        },
+        {
+          "title": "Module 6 Quiz",
+          "type": "instruction",
+          "path": "instruction/module-6-quiz/module-6-quiz.md",
+          "id": "8f6c928fef0a46d29fddf60e5f5b45d2",
+          "state": "stub",
+          "description": "A quiz on the contents of Module 6."
+        },
+        {
+          "title": "Reactance of Capacitors and Inductors",
+          "type": "instruction",
+          "path": "instruction/reactance-of-capacitors-and-inductors/reactance-of-capacitors-and-inductors.md",
+          "id": "ac5af6c0f6964dada13bec9fa2bc4a83",
+          "state": "stub",
+          "description": "Understanding the reactance of capacitors and inductors in AC circuits."
+        },
+        {
+          "title": "RLC Series Circuits",
+          "type": "instruction",
+          "path": "instruction/rlc-series-circuits/rlc-series-circuits.md",
+          "id": "fb129139adcb4065ac406584d41693fd",
+          "state": "stub",
+          "description": "Analyzing RLC series circuits."
+        },
+        {
+          "title": "RLC Parallel Circuits",
+          "type": "instruction",
+          "path": "instruction/rlc-parallel-circuits/rlc-parallel-circuits.md",
+          "id": "c9ae6ee21bc047e4a751fd61b2369411",
+          "state": "stub",
+          "description": "Analyzing RLC parallel circuits."
+        },
+        {
+          "title": "Resonance in AC Circuits",
+          "type": "instruction",
+          "path": "instruction/resonance-in-ac-circuits/resonance-in-ac-circuits.md",
+          "id": "d66d82856d1c4f169ab2be7139ea1b44",
+          "state": "stub",
+          "description": "Understanding resonance in AC circuits."
+        }
       ]
     },
     {
       "title": "Three-Phase Power Systems",
-      "description": "An introduction to three-phase power systems, their advantages, and basic analysis.",
       "topics": [
-        { "title": "Introduction to Three-Phase Systems", "description": "Understanding the basics of three-phase power systems.", "path": "instruction/introduction-to-three-phase-systems/introduction-to-three-phase-systems.md", "type": "instruction", "state": "stub" },
-        { "title": "Wye and Delta Connections", "description": "Understanding wye and delta connections in three-phase systems.", "path": "instruction/wye-and-delta-connections/wye-and-delta-connections.md", "type": "instruction", "state": "stub" },
-        { "title": "Line and Phase Voltages and Currents", "description": "Relating line and phase voltages and currents.", "path": "instruction/line-and-phase-voltages-and-currents/line-and-phase-voltages-and-currents.md", "type": "instruction", "state": "stub" },
-        { "title": "Three-Phase Power Calculations", "description": "Calculating power in three-phase systems.", "path": "instruction/three-phase-power-calculations/three-phase-power-calculations.md", "type": "instruction", "state": "stub" },
-        { "title": "Balanced and Unbalanced Loads", "description": "Analyzing balanced and unbalanced loads in three-phase systems.", "path": "instruction/balanced-and-unbalanced-loads/balanced-and-unbalanced-loads.md", "type": "instruction", "state": "stub" },
-        { "title": "Advantages of Three-Phase Power", "description": "Understanding the advantages of three-phase power over single-phase power.", "path": "instruction/advantages-of-three-phase-power/advantages-of-three-phase-power.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 7 Problem Set", "description": "Practice problems for Module 7.", "path": "instruction/module-7-problem-set/module-7-problem-set.md", "type": "instruction", "state": "stub" },
-        { "title": "Module 7 Quiz", "description": "A quiz on the contents of Module 7.", "path": "instruction/module-7-quiz/module-7-quiz.md", "type": "instruction", "state": "stub" },
-        { "title": "Power Distribution Systems", "description": "Overview of power distribution systems.", "path": "instruction/power-distribution-systems/power-distribution-systems.md", "type": "instruction", "state": "stub" },
-        { "title": "Transformers in Three-Phase Systems", "description": "Understanding the role of transformers in three-phase systems.", "path": "instruction/transformers-in-three-phase-systems/transformers-in-three-phase-systems.md", "type": "instruction", "state": "stub" },
-        { "title": "Power System Protection", "description": "Overview of power system protection schemes.", "path": "instruction/power-system-protection/power-system-protection.md", "type": "instruction", "state": "stub" },
-        { "title": "Harmonics in Power Systems", "description": "Introduction to harmonics in power systems.", "path": "instruction/harmonics-in-power-systems/harmonics-in-power-systems.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Introduction to Three-Phase Systems",
+          "type": "instruction",
+          "path": "instruction/introduction-to-three-phase-systems/introduction-to-three-phase-systems.md",
+          "id": "0ff2594c0df2414c9807c2c2c6e4091b",
+          "state": "stub",
+          "description": "Understanding the basics of three-phase power systems."
+        },
+        {
+          "title": "Wye and Delta Connections",
+          "type": "instruction",
+          "path": "instruction/wye-and-delta-connections/wye-and-delta-connections.md",
+          "id": "a7a465a4a20a47bea3f93d5a15507e61",
+          "state": "stub",
+          "description": "Understanding wye and delta connections in three-phase systems."
+        },
+        {
+          "title": "Line and Phase Voltages and Currents",
+          "type": "instruction",
+          "path": "instruction/line-and-phase-voltages-and-currents/line-and-phase-voltages-and-currents.md",
+          "id": "a1a018316cbb4370ba2c97a2f1230b1b",
+          "state": "stub",
+          "description": "Relating line and phase voltages and currents."
+        },
+        {
+          "title": "Three-Phase Power Calculations",
+          "type": "instruction",
+          "path": "instruction/three-phase-power-calculations/three-phase-power-calculations.md",
+          "id": "354d69f3473e49c29380cb3532e8f600",
+          "state": "stub",
+          "description": "Calculating power in three-phase systems."
+        },
+        {
+          "title": "Balanced and Unbalanced Loads",
+          "type": "instruction",
+          "path": "instruction/balanced-and-unbalanced-loads/balanced-and-unbalanced-loads.md",
+          "id": "9f9ae6351dc64976a64a2d29f5ceb782",
+          "state": "stub",
+          "description": "Analyzing balanced and unbalanced loads in three-phase systems."
+        },
+        {
+          "title": "Advantages of Three-Phase Power",
+          "type": "instruction",
+          "path": "instruction/advantages-of-three-phase-power/advantages-of-three-phase-power.md",
+          "id": "09afb4b5fa014605a241510446fc3a7f",
+          "state": "stub",
+          "description": "Understanding the advantages of three-phase power over single-phase power."
+        },
+        {
+          "title": "Module 7 Problem Set",
+          "type": "instruction",
+          "path": "instruction/module-7-problem-set/module-7-problem-set.md",
+          "id": "fb268151898b4f8db9716d6aabf66178",
+          "state": "stub",
+          "description": "Practice problems for Module 7."
+        },
+        {
+          "title": "Module 7 Quiz",
+          "type": "instruction",
+          "path": "instruction/module-7-quiz/module-7-quiz.md",
+          "id": "7f1b879967484e888c226e52f653d2dc",
+          "state": "stub",
+          "description": "A quiz on the contents of Module 7."
+        },
+        {
+          "title": "Power Distribution Systems",
+          "type": "instruction",
+          "path": "instruction/power-distribution-systems/power-distribution-systems.md",
+          "id": "9e77462746b54418a354dd1fc199dff2",
+          "state": "stub",
+          "description": "Overview of power distribution systems."
+        },
+        {
+          "title": "Transformers in Three-Phase Systems",
+          "type": "instruction",
+          "path": "instruction/transformers-in-three-phase-systems/transformers-in-three-phase-systems.md",
+          "id": "de5ac842f481459fbc07df642788ef71",
+          "state": "stub",
+          "description": "Understanding the role of transformers in three-phase systems."
+        },
+        {
+          "title": "Power System Protection",
+          "type": "instruction",
+          "path": "instruction/power-system-protection/power-system-protection.md",
+          "id": "0138802e7dc742e0b2b49beb4991f858",
+          "state": "stub",
+          "description": "Overview of power system protection schemes."
+        },
+        {
+          "title": "Harmonics in Power Systems",
+          "type": "instruction",
+          "path": "instruction/harmonics-in-power-systems/harmonics-in-power-systems.md",
+          "id": "e9a022f4bce94fc5b7daf01a2b60b3ca",
+          "state": "stub",
+          "description": "Introduction to harmonics in power systems."
+        }
       ]
     },
     {
       "title": "Capstone Project: Electrical System Design",
-      "description": "This module is a capstone project where students apply the concepts learned throughout the course to design a small electrical system.",
       "topics": [
-        { "title": "Project Overview and Requirements", "description": "Defining the scope and requirements of the capstone project.", "path": "instruction/project-overview-and-requirements/project-overview-and-requirements.md", "type": "instruction", "state": "stub" },
-        { "title": "Load Analysis and Estimation", "description": "Estimating the electrical load of the system.", "path": "instruction/load-analysis-and-estimation/load-analysis-and-estimation.md", "type": "instruction", "state": "stub" },
-        { "title": "Circuit Design and Component Selection", "description": "Designing the electrical circuits and selecting appropriate components.", "path": "instruction/circuit-design-and-component-selection/circuit-design-and-component-selection.md", "type": "instruction", "state": "stub" },
-        { "title": "Power Supply Design", "description": "Designing the power supply for the system.", "path": "instruction/power-supply-design/power-supply-design.md", "type": "instruction", "state": "stub" },
-        { "title": "Wiring and Grounding Design", "description": "Designing the wiring and grounding system for safety.", "path": "instruction/wiring-and-grounding-design/wiring-and-grounding-design.md", "type": "instruction", "state": "stub" },
-        { "title": "Protection and Safety Devices", "description": "Selecting appropriate protection and safety devices.", "path": "instruction/protection-and-safety-devices/protection-and-safety-devices.md", "type": "instruction", "state": "stub" },
-        { "title": "System Simulation and Testing", "description": "Simulating and testing the designed system.", "path": "instruction/system-simulation-and-testing/system-simulation-and-testing.md", "type": "instruction", "state": "stub" },
-        { "title": "Documentation and Reporting", "description": "Documenting the design process and writing a final report.", "path": "instruction/documentation-and-reporting/documentation-and-reporting.md", "type": "instruction", "state": "stub" },
-        { "title": "Design Review 1", "description": "Peer review of design progress.", "path": "instruction/design-review-1/design-review-1.md", "type": "instruction", "state": "stub" },
-        { "title": "Design Review 2", "description": "Final design review and presentation.", "path": "instruction/design-review-2/design-review-2.md", "type": "instruction", "state": "stub" },
-        { "title": "Project Submission", "description": "Submitting the final project report and design files.", "path": "instruction/project-submission/project-submission.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Project Overview and Requirements",
+          "type": "instruction",
+          "path": "instruction/project-overview-and-requirements/project-overview-and-requirements.md",
+          "id": "2e226800eeb9481ba9b39602252138cf",
+          "state": "stub",
+          "description": "Defining the scope and requirements of the capstone project."
+        },
+        {
+          "title": "Load Analysis and Estimation",
+          "type": "instruction",
+          "path": "instruction/load-analysis-and-estimation/load-analysis-and-estimation.md",
+          "id": "254d4e0f266e4ed490ca87e60e7d7372",
+          "state": "stub",
+          "description": "Estimating the electrical load of the system."
+        },
+        {
+          "title": "Circuit Design and Component Selection",
+          "type": "instruction",
+          "path": "instruction/circuit-design-and-component-selection/circuit-design-and-component-selection.md",
+          "id": "afd4c59c4ced4457947c953ec80a1e8b",
+          "state": "stub",
+          "description": "Designing the electrical circuits and selecting appropriate components."
+        },
+        {
+          "title": "Power Supply Design",
+          "type": "instruction",
+          "path": "instruction/power-supply-design/power-supply-design.md",
+          "id": "1698c521d2fa458cbddd06fd2f7b893c",
+          "state": "stub",
+          "description": "Designing the power supply for the system."
+        },
+        {
+          "title": "Wiring and Grounding Design",
+          "type": "instruction",
+          "path": "instruction/wiring-and-grounding-design/wiring-and-grounding-design.md",
+          "id": "05e0ccb40a694bdcae50a02a6fe5c14c",
+          "state": "stub",
+          "description": "Designing the wiring and grounding system for safety."
+        },
+        {
+          "title": "Protection and Safety Devices",
+          "type": "instruction",
+          "path": "instruction/protection-and-safety-devices/protection-and-safety-devices.md",
+          "id": "b88f82489e414f78a9bbb910e13e087d",
+          "state": "stub",
+          "description": "Selecting appropriate protection and safety devices."
+        },
+        {
+          "title": "System Simulation and Testing",
+          "type": "instruction",
+          "path": "instruction/system-simulation-and-testing/system-simulation-and-testing.md",
+          "id": "aa0c8a2a65ea46359851d64d8f0a1302",
+          "state": "stub",
+          "description": "Simulating and testing the designed system."
+        },
+        {
+          "title": "Documentation and Reporting",
+          "type": "instruction",
+          "path": "instruction/documentation-and-reporting/documentation-and-reporting.md",
+          "id": "714017f90a264fdbb42fc063935cd260",
+          "state": "stub",
+          "description": "Documenting the design process and writing a final report."
+        },
+        {
+          "title": "Design Review 1",
+          "type": "instruction",
+          "path": "instruction/design-review-1/design-review-1.md",
+          "id": "e9b236bff4154c17b3d86bb1dd4c1146",
+          "state": "stub",
+          "description": "Peer review of design progress."
+        },
+        {
+          "title": "Design Review 2",
+          "type": "instruction",
+          "path": "instruction/design-review-2/design-review-2.md",
+          "id": "a8ee0e3d31494518bdffb997d1144b37",
+          "state": "stub",
+          "description": "Final design review and presentation."
+        },
+        {
+          "title": "Project Submission",
+          "type": "instruction",
+          "path": "instruction/project-submission/project-submission.md",
+          "id": "3ccfb1c53f0141afbdcaa7d98e500fbe",
+          "state": "stub",
+          "description": "Submitting the final project report and design files."
+        }
       ]
     }
   ]
