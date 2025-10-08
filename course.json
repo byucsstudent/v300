@@ -524,7 +524,7 @@
           "type": "instruction",
           "path": "instruction/ac-power/ac-power.md",
           "id": "4c8850599bc748558cd2ffa460ccd713",
-          "state": "stub",
+          "state": "stable",
           "description": "Understanding power in AC circuits."
         },
         {
