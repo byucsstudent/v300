@@ -532,7 +532,7 @@
           "type": "instruction",
           "path": "instruction/power-factor/power-factor.md",
           "id": "7f2b623598a743ddbabd571aa97e6b60",
-          "state": "stub",
+          "state": "stable",
           "description": "Defining and improving power factor."
         },
         {
