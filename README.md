@@ -1,4 +1,3 @@
-```markdown
 <p align="center">
   <img src="https://raw.githubusercontent.com/csinstructiontemplate/emptycourse/refs/heads/main/byulogo.png" alt="BYU Logo" width="200"/>
 </p>
@@ -44,4 +43,3 @@ Upon successful completion of this course, you will be able to:
 *   **Capstone Project: Electrical System Design:** This module is a capstone project where students apply the concepts learned throughout the course to design a small electrical system.
 
 Ready to spark your interest in electricity? Let's get started and illuminate the world of electrical engineering together! Dive into the first module and begin your electrifying journey today!
-```
