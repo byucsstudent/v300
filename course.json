@@ -593,7 +593,7 @@
           "type": "instruction",
           "path": "instruction/introduction-to-three-phase-systems/introduction-to-three-phase-systems.md",
           "id": "0ff2594c0df2414c9807c2c2c6e4091b",
-          "state": "stub",
+          "state": "stable",
           "description": "Understanding the basics of three-phase power systems."
         },
         {
