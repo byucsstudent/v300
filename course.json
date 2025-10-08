@@ -601,7 +601,7 @@
           "type": "instruction",
           "path": "instruction/wye-and-delta-connections/wye-and-delta-connections.md",
           "id": "a7a465a4a20a47bea3f93d5a15507e61",
-          "state": "stub",
+          "state": "stable",
           "description": "Understanding wye and delta connections in three-phase systems."
         },
         {
